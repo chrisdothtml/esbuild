@@ -465,7 +465,7 @@ fs.writeFileSync(__dirname + '/../pkg/api/api_js_table.go',
 
 package api
 
-import "github.com/evanw/esbuild/internal/compat"
+import "github.com/evanw/esbuild/not-internal/compat"
 
 type EngineName uint8
 

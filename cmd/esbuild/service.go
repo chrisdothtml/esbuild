@@ -15,11 +15,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/evanw/esbuild/internal/cli_helpers"
-	"github.com/evanw/esbuild/internal/config"
-	"github.com/evanw/esbuild/internal/fs"
-	"github.com/evanw/esbuild/internal/helpers"
-	"github.com/evanw/esbuild/internal/logger"
+	"github.com/evanw/esbuild/not-internal/cli_helpers"
+	"github.com/evanw/esbuild/not-internal/config"
+	"github.com/evanw/esbuild/not-internal/fs"
+	"github.com/evanw/esbuild/not-internal/helpers"
+	"github.com/evanw/esbuild/not-internal/logger"
 	"github.com/evanw/esbuild/pkg/api"
 	"github.com/evanw/esbuild/pkg/cli"
 )

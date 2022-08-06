@@ -6,12 +6,12 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/evanw/esbuild/internal/fs"
-	"github.com/evanw/esbuild/internal/helpers"
-	"github.com/evanw/esbuild/internal/js_ast"
-	"github.com/evanw/esbuild/internal/js_lexer"
-	"github.com/evanw/esbuild/internal/js_parser"
-	"github.com/evanw/esbuild/internal/logger"
+	"github.com/evanw/esbuild/not-internal/fs"
+	"github.com/evanw/esbuild/not-internal/helpers"
+	"github.com/evanw/esbuild/not-internal/js_ast"
+	"github.com/evanw/esbuild/not-internal/js_lexer"
+	"github.com/evanw/esbuild/not-internal/js_parser"
+	"github.com/evanw/esbuild/not-internal/logger"
 )
 
 func parseMangleCache(osArgs []string, fs fs.FS, absPath string) (map[string]interface{}, []string) {
